@@ -5,9 +5,17 @@
   
 //  @charset "utf-8";
 
- [class="page-header"]{
+body{
+	background-color: #131313 !important;
+	height: 2000px !important;
+}
 
-  background-color: #131313 !important;
+
+
+
+ [class="project-name"]{
+
+  
     background-image: none !important;
    height: 200% !important;
 	text-align: center !important;
