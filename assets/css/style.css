@@ -45,3 +45,6 @@ background-color: #131313 !important;
 	box-shadow: 0px 0px 15px -1px #000 !important;
 }
 
+[class*="darkimg"]:hover{
+	zoom: 150% !important;
+}
