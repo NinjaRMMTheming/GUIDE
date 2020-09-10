@@ -1,8 +1,12 @@
+---
+---
+
 @import "{{ site.theme }}";
   
   .page-header {
 
-  background-color: #131313 !Important;
+  background-color: #131313 !important;
+    background-image: none !important;
 
 }
   
