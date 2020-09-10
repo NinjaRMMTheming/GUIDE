@@ -3,14 +3,34 @@
 
 @import "{{ site.theme }}";
   
-  .page-header {
+ @charset "utf-8";
+
+ .page-header{
 
   background-color: #131313 !important;
     background-image: none !important;
-    background-size: auto !important;
+   height: 200% !important;
+	text-align: center !important;
+	 font-size: 28px !important;
+	 color: #FF004F !important;
+	 
 
 }
-  
+
+.imgtable {
+	border: 1px solid #0000 !important;
+	box-shadow: none !important;
+	margin: 0 auto !important;
+}
+
+
+[class*="darkimg"]{
+	border: 1px solid #000 !important;
+	border-radius: 5px !important;
+	box-shadow: 0px 0px 15px -1px #000 !important;
+}
+
+
   
   
   
