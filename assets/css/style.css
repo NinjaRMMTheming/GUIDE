@@ -5,7 +5,7 @@
   
 /* //  @charset "utf-8"; */
 
-body{
+html *{
 	background-color: #131313 !important;
 	height: 2000px !important;
 }
