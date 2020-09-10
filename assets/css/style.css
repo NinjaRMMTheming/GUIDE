@@ -8,8 +8,9 @@ body{
 }
 
 
-html{
+html *{
 height: 2000px !important;
+background-color: #131313 !important;
 }
 
 
