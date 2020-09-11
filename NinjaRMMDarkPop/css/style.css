@@ -46,5 +46,5 @@ background-color: #131313 !important;
 }
 
 [class*="darkimg"]:hover{
-	zoom: 350% !important;
+	transform: scale(1.3) !important;
 }
