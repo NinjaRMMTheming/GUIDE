@@ -14,24 +14,6 @@ background-color: #131313 !important;
 }
 
 
-[class="page-header"]{
-	height: 2000px !important;
-}
-
-
-
- [class="project-name"]{
-
-  top: 3% !important;
-    background-image: none !important;
-/*    height: 200% !important; */
-	text-align: center !important;
-	 font-size: 28px !important;
-	 color: #FF004F !important;
-	 
-
-}
-
 .imgtable {
 	border: 1px solid #0000 !important;
 	box-shadow: none !important;
