@@ -1,5 +1,13 @@
 /*@charset "utf-8";*/
 
+
+
+html {
+    /* height: 2000px !important; */
+    background-color: #131313 !important;
+    }
+
+
 body {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	
@@ -9,12 +17,12 @@ body {
 
  .page-header{
 
-  background-color: #131313 !important;
+    background-color: #131313 !important;
     background-image: none !important;
-   height: 200% !important;
+    height: 200% !important;
 	text-align: center !important;
-	 font-size: 28px !important;
-	 color: #FF004F !important;
+	font-size: 28px !important;
+	color: #FF004F !important;
 	 
 
 }
