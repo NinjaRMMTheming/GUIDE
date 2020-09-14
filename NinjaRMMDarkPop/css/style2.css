@@ -73,3 +73,6 @@ opacity: 1 !important;
 [class="codeframe"]{
 	opacity: 1 !important;
 }
+[class="codeframe"] *{
+	background-color: #fff !important;
+}
