@@ -2,6 +2,12 @@
 
 
 
+::-webkit-scrollbar{
+    display: none !important;
+}
+
+
+
 html {
     /* height: 2000px !important; */
     background-color: #131313 !important;
@@ -23,7 +29,8 @@ body {
 	text-align: center !important;
 	font-size: 28px !important;
 	color: #FF004F !important;
-	border-bottom: 1px solid #000 !important; 
+    border-bottom: 1px solid #000 !important;
+    
 
 }
 div[class="guide"], [class="themessection"], div[class="instructions"]{
