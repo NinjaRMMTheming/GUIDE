@@ -68,7 +68,9 @@ background-color: #131313 !important;
 
 [class="pastebincode"]{
 opacity: 1 !important;
-width: 50%
+width: 50% !important;
+margin-left: auto;
+margin-right: auto;
 }
 
 [class="codeframe"]{
@@ -78,15 +80,12 @@ width: 50%
 	background-color: #fff !important;
 }
 
-[class="hljs"]{
-opacity: 1;
+pre[class="hljs"]{
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
 }
 
 
-[class="hljs"] *{
-	opacity: 1;
-	word-wrap: normal;
-}
 
 
 
