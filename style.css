@@ -65,10 +65,15 @@ div[class="guide"], [class="themessection"], div[class="instructions"]{
 
 div[class="instructions"]{
 	max-width: 50% !important;
-	margin-left: 25% !important;
+    margin-left: 25% !important;
+    box-shadow: 0px 0px 15px 1px #000 !important;;
+    padding: 15px !important;
+    border-radius: 11px !important;
 }
+
 div[class="instructions"] p{
-	color: #6D6D6E
+    color: #6D6D6E !important;
+    width: 75% !important;
 }
 
 span[class="innumber"]{
@@ -90,8 +95,12 @@ ul[class="steps"]{
 	
 }
 ul[class="steps"] li{
-	margin-bottom: 2.5% !important;
+    margin-bottom: 2.5% !important;
+    box-shadow: 0px 0px 15px 1px #000;
+    padding: 25px;
+    border-radius: 5px;
 }
+
 span[class="predom"]{
 	color: #FB005D
 }
