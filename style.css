@@ -26,8 +26,9 @@ body {
 	border-bottom: 1px solid #000 !important; 
 
 }
-div[class="guide"], [class="themessection"]{
+div[class="guide"], [class="themessection"], div[class="instructions"]{
     text-align: center !important;
+    font-size: 28px !important;
 }
 
 
