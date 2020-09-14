@@ -36,7 +36,7 @@ body {
     width: 101% !important;
     margin-left: -.5% !important;
 }
-div[class="guide"], [class="themessection"], div[class="instructions"]{
+div[class="guide"], div[class="instructions"]{
     text-align: center !important;
     font-size: 28px !important;
 }
@@ -130,7 +130,8 @@ span[class="predom"]{
     color: #C1C0C0 !important;
     text-decoration: none;
     text-transform: uppercase;
-	
+	text-align: center !important;
+    font-size: 31px !important;
 }
 ul[class="steps"] li:last-child{
 	margin-bottom: 10% !important
