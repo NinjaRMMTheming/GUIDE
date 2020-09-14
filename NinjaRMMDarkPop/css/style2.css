@@ -30,7 +30,7 @@ background-color: #131313 !important;
 [class="NDTHeader"]{
 	color: var(--header-color) !important;
 	text-align: center !important;
-	text-transform: uppercase !important;
+	/* text-transform: uppercase !important; */
 }
 
 
