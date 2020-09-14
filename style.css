@@ -15,7 +15,7 @@ body {
 
 
 
- .page-header{
+ [class="page-header"]{
 
     background-color: #131313 !important;
     background-image: none !important;
@@ -26,6 +26,12 @@ body {
 	border-bottom: 1px solid #000 !important; 
 
 }
+div[class="guide"], [class="themessection"]{
+    text-align: center !important;
+}
+
+
+
 
 .imgtable {
 	border: 1px solid #0000 !important;
