@@ -2,15 +2,16 @@
 
 
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     display: none !important;
-}
+} */
 
 
 
 html {
     /* height: 2000px !important; */
     background-color: #131313 !important;
+    overflow: -moz-scrollbars-none;
     }
 
 
