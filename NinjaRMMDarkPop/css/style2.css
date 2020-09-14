@@ -31,7 +31,7 @@ background-color: #131313 !important;
 	color: var(--header-color) !important;
 	text-align: center !important;
 	/* text-transform: uppercase !important; */
-	top: 3% !important;
+	margin-top: 3% !important;
 	margin-bottom: 5% !important;
 
 }
