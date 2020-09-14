@@ -4,6 +4,15 @@
 
 
 
+::-webkit-scrollbar{
+    display: none !important;
+}
+
+html{
+	overflow: scroll;
+	scrollbar-width: none;
+}
+
 
 body *{
 	background-color: #131313 !important;
@@ -17,6 +26,7 @@ body{
 html *{
 /* height: 2000px !important; */
 background-color: #131313 !important;
+
 }
 
 
