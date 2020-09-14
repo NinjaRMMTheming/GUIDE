@@ -76,6 +76,7 @@ box-shadow: inset 0px 0px 15px 5px #000 !important;
 margin-top: 15%;
 border-radius: 15px;
 padding: 1%;
+border: 1px solid #000 !important;
 }
 
 [class="pastebincode"]:hover, [class="pastebincode"] *:hover [class="pastebincode"]{
