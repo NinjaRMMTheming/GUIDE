@@ -30,8 +30,9 @@ body {
 	font-size: 28px !important;
 	color: #FF004F !important;
     border-bottom: 1px solid #000 !important;
-    
-
+    box-shadow: 0px 15px 15px -5px #000 !important;
+    width: 101% !important;
+    margin-left: -.5% !important;
 }
 div[class="guide"], [class="themessection"], div[class="instructions"]{
     text-align: center !important;
