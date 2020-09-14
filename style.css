@@ -11,7 +11,8 @@
 html {
     /* height: 2000px !important; */
     background-color: #131313 !important;
-    overflow: -moz-scrollbars-none;
+    overflow: hidden !important;
+    scrollbar-width: none;
     }
 
 
