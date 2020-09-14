@@ -78,12 +78,12 @@ opacity: 1 !important;
 }
 
 [class="hljs"]{
-
+opacity: 1;
 }
 
 
 [class="hljs"] *{
-	
+	opacity: 1;
 }
 
 
