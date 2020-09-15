@@ -29,7 +29,7 @@
 <tr><table>
   <tr><td>
 <div class="pastebincode">
-  <pre class="hljs" id="textQuery" style="display: inline-block; background:transparent; color: rgb(138, 133, 133); padding: 0.5em;">
+  <pre class="hljs" id="textQuery" onclick="copyDivToClipboard()" style="display: inline-block; background:transparent; color: rgb(138, 133, 133); padding: 0.5em;">
     
     <span class="hljs-selector-pseudo">:root</span>{
     
@@ -3702,11 +3702,16 @@ Login Screen
 </div>
 
 
-<button id="button1" onclick="CopyToClipboard('textQuery')">Click to copy</button>
-<br /><br />
-<div id="div1">Text To Copy </div>
-<br />
-<textarea placeholder="Press ctrl+v to Paste the copied text" rows="5" cols="20"></textarea>
+            <script>
+                function copyDivToClipboard() {
+                    var range = document.createRange();
+                    range.selectNode(document.getElementById("textQuery"));
+                    window.getSelection().removeAllRanges(); // clear current selection
+                    window.getSelection().addRange(range); // to select text
+                    document.execCommand("copy");
+                    window.getSelection().removeAllRanges();// to deselect
+                }
+            </script>
 
 
 
