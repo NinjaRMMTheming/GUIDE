@@ -96,7 +96,8 @@ border: 1px solid #000 !important;
 
 pre{
     overflow-y: scroll;
-    max-height: 4150px;
+	max-height: 4150px;
+	scrollbar-width: none;
 }
 
 
