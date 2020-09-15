@@ -108,5 +108,15 @@ pre[class="hljs"]{
 
 
 
+[class="copyMessage"]{
+    color: #3c80b3;
+    transform: translate(121%, 100%) !important;
+    position: absolute;
+    font-size: 19px;
+    
+}
 
+[class*="righttable"]:not(:hover) [class="copyMessage"]{
+    opacity: 0.2 !important;
+}
 
