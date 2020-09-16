@@ -104,7 +104,7 @@ ul[class="steps"] li{
 }
 
 span[class="predom"]{
-	color: #FB005D
+	color: #FB005D;
 }
 [class="chromewebstore"]{
 	color: #fff !important;
@@ -134,4 +134,9 @@ span[class="predom"]{
 }
 ul[class="steps"] li:last-child{
 	margin-bottom: 10% !important
+}
+
+[class="dMessage"]{
+    color: #FB005D;
+    font-size: 21px !important;
 }
